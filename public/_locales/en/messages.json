@@ -1,0 +1,26 @@
+{
+  "appName": {
+    "message": "Chrome Extension TypeScript Starter",
+    "description": "The name of the extension"
+  },
+  "appDescription": {
+    "message": "A TypeScript starter template for Chrome extensions",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "Extension Popup",
+    "description": "Title displayed in the popup"
+  },
+  "optionsTitle": {
+    "message": "Extension Options",
+    "description": "Title displayed in the options page"
+  },
+  "settingsSaved": {
+    "message": "Settings saved successfully",
+    "description": "Message shown when settings are saved"
+  },
+  "errorOccurred": {
+    "message": "An error occurred",
+    "description": "Generic error message"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "appName": {
+    "message": "Chrome拡張機能 TypeScriptスターター",
+    "description": "The name of the extension"
+  },
+  "appDescription": {
+    "message": "Chrome拡張機能用のTypeScriptスターターテンプレート",
+    "description": "The description of the extension"
+  },
+  "popupTitle": {
+    "message": "拡張機能ポップアップ",
+    "description": "Title displayed in the popup"
+  },
+  "optionsTitle": {
+    "message": "拡張機能の設定",
+    "description": "Title displayed in the options page"
+  },
+  "settingsSaved": {
+    "message": "設定が保存されました",
+    "description": "Message shown when settings are saved"
+  },
+  "errorOccurred": {
+    "message": "エラーが発生しました",
+    "description": "Generic error message"
+  }
+}
