@@ -1,26 +1,40 @@
 {
   "appName": {
-    "message": "Chrome Extension TypeScript Starter",
+    "message": "Path Jumper",
     "description": "The name of the extension"
   },
   "appDescription": {
-    "message": "A TypeScript starter template for Chrome extensions",
+    "message": "Replace current URL path with clipboard content",
     "description": "The description of the extension"
   },
-  "popupTitle": {
-    "message": "Extension Popup",
-    "description": "Title displayed in the popup"
+  "commandJumpDescription": {
+    "message": "Jump to clipboard path on the current origin",
+    "description": "Description for the keyboard shortcut command"
   },
   "optionsTitle": {
-    "message": "Extension Options",
-    "description": "Title displayed in the options page"
+    "message": "Path Jumper Options",
+    "description": "Title of the options page"
+  },
+  "optionShowToast": {
+    "message": "Show toast on jump",
+    "description": "Label for the toast notification toggle"
+  },
+  "optionShowToastDesc": {
+    "message": "Briefly show the destination path in the top-right corner after navigating.",
+    "description": "Description for the toast notification toggle"
   },
   "settingsSaved": {
-    "message": "Settings saved successfully",
-    "description": "Message shown when settings are saved"
+    "message": "Saved",
+    "description": "Inline status text shown when an option is saved"
   },
-  "errorOccurred": {
-    "message": "An error occurred",
-    "description": "Generic error message"
+  "toastJumped": {
+    "message": "→ $PATH$",
+    "description": "Toast text shown after a successful jump",
+    "placeholders": {
+      "path": {
+        "content": "$1",
+        "example": "/foo/bar"
+      }
+    }
   }
 }

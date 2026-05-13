@@ -1,8 +1,7 @@
 {
-  "name": "chrome-extension-typescript-starter",
+  "name": "path-jumper",
   "version": "1.0.0",
-  "description": "chrome-extension-typescript-starter",
-  "main": "index.js",
+  "description": "Chrome extension that replaces the current URL path with the clipboard content while keeping the active tab's origin.",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
@@ -14,17 +13,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahksas/chrome-extension-typescript-starter.git"
-  },
-  "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "url": "https://github.com/sahksas/path-jumper.git"
   },
   "devDependencies": {
     "@types/chrome": "0.1.36",
     "@types/jest": "^30.0.0",
-    "@types/react": "^19.2.13",
-    "@types/react-dom": "^19.2.3",
     "copy-webpack-plugin": "^13.0.1",
     "glob": "^13.0.1",
     "jest": "^30.2.0",
